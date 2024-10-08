@@ -19,6 +19,7 @@ Welcome to my **Node.js Learning** repository! This is where I'm documenting my 
 1. Clone the repository:
    ```bash
    git clone https://github.com/shivraj-prajapati/nodejs-learning.git
+   ```
 
    ## Getting Started
 
@@ -27,7 +28,8 @@ Welcome to my **Node.js Learning** repository! This is where I'm documenting my 
 ```bash
 cd day1
 node app.js
+```
 
-## Why This Repo?
+   ## Why This Repo?
 This repository is for documenting my learning process, keeping a record of my Node.js journey, and potentially helping others who are learning Node.js as well. 
 
