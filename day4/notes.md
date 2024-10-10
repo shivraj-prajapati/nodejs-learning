@@ -1,4 +1,4 @@
-# Day 1: Modules in Node.js
+# Day 4: Modules in Node.js
 - Created a custom module (greetings.js) with an object `greet` that includes:
   - A function `sayhello` to log a greeting message ("Hello Coders..!") to the console.
   - A string property `name` with the value "Node.js".
