@@ -19,4 +19,4 @@
   - Schedules a callback to be executed in the next phase of the event loop, before any I/O operations. Useful for prioritizing specific tasks.
 
 - **queueMicrotask()**: 
-  - Schedules a microtask to run at the end of the current execution phase. It ensures high-priority code is executed immediately after the current operation.
+  - Schedules a microtask to run at the end of the current execution phase. It ensures high-priority code is executed immediately after the current operation
