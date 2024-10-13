@@ -48,6 +48,4 @@ process.nextTick(() => {
 // Use: Schedules a microtask to execute at the end of the current execution phase.
 queueMicrotask(() => {
     console.log("This runs at the end of the current execution phase");
-})
-
-
+});
