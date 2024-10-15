@@ -1,4 +1,4 @@
-# NPM ke Important Commands
+# Day 16 : NPM ke Important Commands
 
 ### 1. `npm init`
 **Kaam**: Naya package create karne ke liye. Ye aapko `package.json` file create karne mein madad karta hai jo aapke project ke dependencies aur configurations ko define karta hai.
