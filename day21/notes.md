@@ -1,4 +1,4 @@
-# **Day XX: Express.js** : Handling PATCH Requests
+# **Day 21: Express.js** : Handling PATCH Requests
 
 ### 1. Endpoint Definition
 **Function**: A PATCH request is defined at the `/users/:id` endpoint to update user information partially. This allows updating specific fields of a user identified by an ID parameter.
