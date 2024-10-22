@@ -1,0 +1,12 @@
+# Day 26: Expanding the Express.js Server
+- Learned how to create additional endpoints in the Express server.
+- Set up a server that handles three new GET requests:
+  - **User Endpoint**: Responds with a JSON object containing user details at the `/user` endpoint.
+    - User details include `id`, `name`, and `email`.
+  - **Products Endpoint**: Responds with an array of product objects at the `/products` endpoint.
+    - Each product includes `id`, `name`, and `price`.
+  - **Message Endpoint**: Responds with a custom JSON message at the `/message` endpoint.
+    - The response contains a `status` and a `message`.
+- Server continues to listen on port **3000**.
+- Important concepts:
+  - `res.json()`: Used to send a JSON response back to the client.
