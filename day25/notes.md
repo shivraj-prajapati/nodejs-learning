@@ -1,0 +1,12 @@
+# Day 25: Basics of Express.js Server
+- Learned how to import and use the **Express** framework.
+- Set up a simple server that responds to different types of requests:
+  - **String Response**: Responds with plain text at the `/string` endpoint.
+  - **JSON Response**: Responds with a JSON object at the `/json` endpoint, including a message and data array.
+  - **HTML Response**: Responds with an HTML formatted message at the `/html` endpoint.
+- Server listens on port **3000**.
+- Important methods and concepts:
+  - `app.use()`: Middleware for parsing JSON request bodies.
+  - `app.get()`: Defines routes for handling GET requests.
+  - `res.send()`: Sends responses back to the client.
+  - `app.listen()`: Starts the server and listens for incoming connections.
