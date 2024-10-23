@@ -1,0 +1,11 @@
+# Day 28: Express.js - Route Handling and Redirection
+- Set up an Express.js server using the `express` module.
+- Created two routes:
+  - `/home`: Responds with a message "Welcome to the Home Page".
+  - `/about`: Redirects to the `/home` route using `res.redirect()`.
+- The server listens on port 3000.
+- Important methods and concepts:
+  - `app.get()`: To define route handlers for HTTP GET requests.
+  - `res.send()`: To send a plain text response to the client.
+  - `res.redirect()`: To redirect the client to another route.
+  - `app.listen()`: To start the server and listen on a specific port.
