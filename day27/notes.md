@@ -1,0 +1,11 @@
+# Day 27: Express.js Basics - Serving HTML File
+- Set up an Express.js server using the `express` module.
+- Imported the `path` module to handle file paths.
+- Created a route for the root (`'/'`) to send an HTML file using `res.sendFile()`.
+- Handled errors during file transmission using an error callback in `sendFile()`.
+- Server listens on port 3000.
+- Important methods and concepts:
+  - `express()`: To create an Express app.
+  - `app.get()`: To define a route handler for HTTP GET requests.
+  - `res.sendFile()`: To serve files from the server.
+  - `app.listen()`: To start the server and listen on a specific port.
