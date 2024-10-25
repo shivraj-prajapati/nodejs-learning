@@ -1,0 +1,12 @@
+# Day 29: Express.js - EJS Templating Engine
+- Set up an Express.js server using the `express` module.
+- Configured EJS as the templating engine:
+  - `app.set('view engine', 'ejs')`: Specifies EJS as the template engine.
+  - `app.set('views', __dirname + '/views')`: Defines the directory for the views.
+- Created a route:
+  - `/`: Responds by rendering the `index.ejs` file.
+- The server listens on port 3000.
+- Important methods and concepts:
+  - `app.get()`: To define route handlers for HTTP GET requests.
+  - `res.render()`: To render a view template and send the rendered HTML to the client.
+  - `app.listen()`: To start the server and listen on a specific port.
