@@ -1,4 +1,4 @@
-# Day XX: Express.js - API Development with Custom Headers
+# Day 30: Express.js - API Development with Custom Headers
 - Set up an Express.js server using the `express` module.
 - Created an API endpoint:
   - `/api/data`: Responds with a JSON object containing a message.
